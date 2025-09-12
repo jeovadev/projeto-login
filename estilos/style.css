@@ -40,7 +40,7 @@ section#login {
    transform: translate(-50%, -50%);
 
    transition: width .5s, height .5s;
-   -o-transition-timing-function: ease;
+   transition-timing-function: ease;
 }
 
 #login > #imagem {
@@ -56,4 +56,13 @@ section#login {
 #login > #formulario {
    display: block;
    padding: 10px;
+}
+
+#formulario > h1 {
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+#formulario > p {
+   font-size: 0.8em;
 }
