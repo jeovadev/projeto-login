@@ -66,3 +66,56 @@ section#login {
 #formulario > p {
    font-size: 0.8em;
 }
+
+form > .campo {
+   background-color: #228a0e;
+   display: block;
+   width: 100%;
+   height: 30px;
+   border-radius: 5px;
+   margin: 5px 0px 5px 0px;
+}
+
+div.campo > label {
+   display: none;
+}
+
+form > input[type=submit] {
+   display: block;
+   font-size: 1em;
+   width: 100%;
+   height: 30px;
+   background-color: #49a09d;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+   background-color: #3c7e7c;
+}
+
+form > .botao {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   font-size: 1em;
+   width: 100%;
+   height: 30px;
+   padding-top: 3px;
+   margin-top: 5px;
+   background-color: #ffffff;
+   color: #1a6b0a;
+   border: 1px solid #49a09d;
+   border-radius: 5px;
+}
+
+form > .botao:hover {
+   background-color: #f0f0f0;
+}
+
+form > .botao > span {
+   font-size: 0.8em;
+   
+}
