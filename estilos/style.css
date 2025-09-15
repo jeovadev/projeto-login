@@ -37,8 +37,8 @@ section#login {
 
    top: 50%;
    left: 50%;
+   
    transform: translate(-50%, -50%);
-
    transition: width .5s, height .5s;
    transition-timing-function: ease;
 }
@@ -88,9 +88,9 @@ div.campo > label {
 div.campo > span {
    color: white;
    font-size: 2em;
-   transform: translateY(-7px);
    width: 41px;
-   padding: 5px;
+   padding: 5px;   
+   transform: translateY(-7px);
 }
 
 div.campo > input {
@@ -98,10 +98,10 @@ div.campo > input {
    font-size: 1em;
    width: calc(100% - 46px);
    height: 100%;
-   transform: translateY(-18px);
    border: 0px;
    border-radius: 9px;
    padding: 6px;
+   transform: translateY(-18px);
 }
 
 div.campo > input:focus-within {
